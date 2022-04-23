@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+	font-family: 'Press Start 2P', cursive;
+	color:white;
+	background: url(../img/bg_main.jpg) center/cover no-repeat;
+
+}*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+/*Шапка
+--------------------*/
+.header{
+	background: rgba( 255, 255, 255, 0);
+	text-align: center;
+	height: 100px;
+	
+}
+
+h1{
+	color: #fff;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+/*Основа
+--------------------*/
+
+.section{
+	vertical-align: middle;
+}
+
+.assembling{
+	text-align: center;
+}
+
+
+.list_assembling{
+	list-style: none;
+}
+
+.list_item{
+	display: inline;
+	transition: 1s; /* Время эффекта */
+ 	text-align: center;
+}
+
+
+.list_item:hover{
+	transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.list_link{
+ text-decoration: none;
+ color: #fff;
+ 
+}
+
+.list_link:visited{
+	color:#fff;
+}
+
+/*Задаем цвета для цены сборки*/
+
+.first{
+	color: rgb(191, 194, 25);
+}
+
+.second{
+	color: rgb(25, 96, 201);
+}
+
+.third{
+	color: rgb(207, 146, 31);
+}
+
+.fourth{
+	color: rgb(136, 10, 10);
+}
+
+.fifth{
+	color: rgb(224, 37, 37);
+}
+
+
+.assembling_computer{
+	height: 100px;
+	width: 100px;
+}

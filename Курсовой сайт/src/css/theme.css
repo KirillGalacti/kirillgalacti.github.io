@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+	font-family: 'Press Start 2P', cursive;
+	color:white;
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+/*Шапка
+--------------------*/
+.header{
+	background: rgba( 255, 255, 255, 0);
+	text-align: center;
+	height: 100px;
+	
+}
+
+h1{
+	color: #fff;
+	vertical-align: middle;
+}
+
+
+.list_fifteen{
+	list-style: none;
+	line-height: 50px;
+	background: rgb(191, 194, 25);
+
+}
+
+.list_link{
+	margin-right: 40px;
+	margin-left: 40px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.list_link:visited {
+	color:#fff;
+	text-decoration: none;
+}
+.list_fifteen {
+	position: relative;
+}
+
+.list_link {
+	display: block;
+}
+
+.list_link .alignnone {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 100%;
+	
+}
+
+.list_link:hover .alignnone {
+	display: block;
+	background: #000;
+}
